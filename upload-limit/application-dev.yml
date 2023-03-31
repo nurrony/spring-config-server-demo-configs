@@ -1,5 +1,6 @@
+name: upload-limit
+profile: dev
 server:
-  profile: dev
   tomcat:
     max-http-post-size: 11MB
 
