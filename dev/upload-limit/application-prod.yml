@@ -1,0 +1,13 @@
+name: upload-limit
+profile: prod
+server:
+  tomcat:
+    max-http-post-size: 101MB
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 101MB
+      enabled: true
+
