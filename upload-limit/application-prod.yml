@@ -1,5 +1,6 @@
+name: upload-limit
+profile: prod
 server:
-  profile: prod
   tomcat:
     max-http-post-size: 101MB
 
