@@ -1,5 +1,5 @@
 server:
-  dev: true
+  profile: dev
   tomcat:
     max-http-post-size: 11MB
 
